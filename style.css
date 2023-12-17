@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: gray;
+    padding: 30px 150px;
+    color: #fff;
+}
+
+.manu-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.manu-container .logo {
+    width: 150px;
+}
+
+.manu-container ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+.manu-container ul li:hover {
+    color: blue;
+    cursor: pointer;
+}
